@@ -39,16 +39,19 @@ from wiki.models.pluginbase import RevisionPluginRevision
 
 from common.djangoapps.entitlements.models import CourseEntitlement
 from common.djangoapps.student.models import (  # lint-amnesty, pylint: disable=unused-import
+    AccountRecovery,
     CourseEnrollmentAllowed,
     LoginFailures,
     ManualEnrollmentAudit,
     PendingEmailChange,
     PendingNameChange,
+    Registration,
     User,
     UserProfile,
     get_potentially_retired_user_by_username,
     get_retired_email_by_email,
-    get_retired_username_by_username
+    get_retired_username_by_username,
+    is_username_retired
 )
 from openedx.core.djangoapps.ace_common.template_context import get_base_template_context
 from openedx.core.djangoapps.api_admin.models import ApiAccessRequest
