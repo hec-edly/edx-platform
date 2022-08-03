@@ -58,6 +58,7 @@ decorator==4.4.2          # via -r requirements/edx/testing.txt, pycontracts
 defusedxml==0.6.0         # via -r requirements/edx/testing.txt, djangorestframework-xml, ora2, python3-openid, python3-saml, safe-lxml, social-auth-core
 diff-cover==4.0.1         # via -r requirements/edx/testing.txt
 distlib==0.3.1            # via -r requirements/edx/testing.txt, virtualenv
+django-auth-ldap
 django-appconf==1.0.4     # via -r requirements/edx/testing.txt, django-statici18n
 django-celery-results==1.2.1  # via -r requirements/edx/testing.txt
 django-classy-tags==2.0.0  # via -r requirements/edx/testing.txt, django-sekizai

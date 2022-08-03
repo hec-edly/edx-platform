@@ -91,6 +91,7 @@ setup(
             "user_authn = openedx.core.djangoapps.user_authn.apps:UserAuthnConfig",
             "program_enrollments = lms.djangoapps.program_enrollments.apps:ProgramEnrollmentsConfig",
             "courseware_api = openedx.core.djangoapps.courseware_api.apps:CoursewareAPIConfig",
+            "ldap_auth = openedx.features.hec_features.ldap_auth.apps:LDAPAuthConfig",
         ],
         "cms.djangoapp": [
             "announcements = openedx.features.announcements.apps:AnnouncementsConfig",
@@ -110,6 +111,7 @@ setup(
             "password_policy = openedx.core.djangoapps.password_policy.apps:PasswordPolicyConfig",
             "user_authn = openedx.core.djangoapps.user_authn.apps:UserAuthnConfig",
             "instructor = lms.djangoapps.instructor.apps:InstructorConfig",
+            "ldap_auth = openedx.features.hec_features.ldap_auth.apps:LDAPAuthConfig",
         ],
         'openedx.learning_context': [
             'lib = openedx.core.djangoapps.content_libraries.library_context:LibraryContextImpl',
